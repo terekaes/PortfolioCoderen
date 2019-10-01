@@ -1,0 +1,45 @@
+// Colors
+$primary:       hsl(210, 57%, 49%);
+$secondary:     hsl(30, 57%, 49%);
+$success:       hsl(110, 57%, 49%);
+$info:          hsl(170, 57%, 49%);
+$warning:       hsl(39, 100%, 50%);
+$danger:        hsl(0, 89%, 48%);
+$light:         #EEE;
+$dark:          #333;
+
+// Global settings
+$enable-rounded:            true;
+$enable-shadows:            false;
+$enable-gradients:          false;
+
+$body-bg:                   $light;
+$body-color:                $dark;
+
+// Link
+$link-color:                $primary;
+$link-decoration:           none;
+$link-hover-color:          darken($link-color, 15%);
+$link-hover-decoration:     underline;
+
+// Grid columns settings
+$grid-columns:                12;
+$grid-gutter-width:           40px;
+
+//Space between paragraphs, headers, ...
+$spacer: 1.2rem;
+
+//Font settings
+$font-family-base:            Roboto, "Helvetica Neue", Arial, sans-serif;
+$headings-font-family:        Georgia, 'Times New Roman', Times, serif;
+$font-size-base: 1.1rem ;
+
+$paragraph-margin-bottom:   1rem;
+
+
+$border-width:                1px ;
+$border-color:                #ccc ;
+
+$border-radius:               1rem ;
+$border-radius-lg:            1rem ;
+$border-radius-sm:            .5rem ;
